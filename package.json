@@ -40,10 +40,6 @@
     "stop-only": "stop-only -f cypress/integration",
     "warn-only": "stop-only -f cypress/integration --warn",
     "ci:set-port": "node ./scripts/set-port",
-    "reporter": "junit",
-    "reporterOptions": {
-      "mochaFile": "results/my-test-output.xml"
-    },
     "semantic-release": "semantic-release"
   },
   "repository": {
