@@ -33,6 +33,7 @@ jobs:
           npx print-env AGENT
           npx print-env BUILD
           npx print-env SYSTEM
+          npx reporter
           npm run start:ci:windows &
           npx cypress run
         displayName: 'Run Cypress tests'
