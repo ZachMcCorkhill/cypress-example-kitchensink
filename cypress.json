@@ -1,3 +1,7 @@
 {
-  "projectId": "4b7344"
+  "projectId": "4b7344",
+  "reporter": "junit",
+  "reporterOptions": {
+    "mochaFile": "results/my-test-output.xml"
+  },
 }
