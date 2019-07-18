@@ -37,11 +37,3 @@ jobs:
           npm run start:ci:windows &
           npx cypress run
         displayName: 'Run Cypress tests'
-      - task: PublishTestResults@2
-        inputs:
-          testResultsFormat: 'JUnit'
-          testResultsFiles: '*.xml'
-          searchFolder: '$(System.DefaultWorkingDirectory)/tests'
-          mergeTestResults: true
-          failTaskOnFailedTests: true
-          testRunTitle: 'Cypress test results'
